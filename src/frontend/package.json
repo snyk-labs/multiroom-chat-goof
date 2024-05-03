@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vue Multiroom Chat with Nuxt, Vuex and WebSocket",
   "author": "kojot",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
