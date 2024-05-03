@@ -40,7 +40,7 @@ export const mutations = {
   },
   subscribe(state, roomKey) {
     // deepcode ignore WrongNumberOfArguments: <please specify a reason of ignoring this>
-    subscribe(state, roomKey, true);
+    subscribe(state, roomKey);
   },
   unsubscribe(state, roomKey) {
     subscribe(state, roomKey);
