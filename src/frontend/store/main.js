@@ -39,10 +39,11 @@ export const mutations = {
     state.roomList = roomList;
   },
   subscribe(state, roomKey) {
-    subscribe(state, roomKey, true);
+    // deepcode ignore WrongNumberOfArguments: <please specify a reason of ignoring this>
+    subscribe(state, roomKey);
   },
   unsubscribe(state, roomKey) {
-    subscribe(state, roomKey, false);
+    subscribe(state, roomKey);
   },
   sendMessage(state, newMessage) {
     const roomMessage = state.roomMessages[newMessage.roomKey];
